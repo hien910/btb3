@@ -19,7 +19,6 @@ SELECT count(*) ,gender FROM Person group by gender;
 
 -- 6. Lấy ra danh sách người có cùng nghề nghiệp (job) và quốc gia (country).
 SELECT count(*), country,job FROM Person group by country, job 
-order by count(*) DESC;
 
 -- 7. Lấy ra danh sách người theo thứ tự giảm dần của ngày sinh (birthday).
 SELECT * FROM Person
