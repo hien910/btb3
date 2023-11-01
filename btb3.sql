@@ -4,7 +4,7 @@ SELECT distinct(job) FROM Person;
 -- 2. Lấy ra danh sách các người có nghề nghiệp (job) là ‘Manager’ và lương (salary) lớn hơn 70000.
 SELECT * FROM Person
 where job = 'Manager'
-having salary > 7000;
+having salary > 70000;
 select* from Person;
 
 -- 3. Lấy ra người có tuổi (dựa trên ngày sinh) từ 25 đến 35.
